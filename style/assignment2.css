@@ -100,7 +100,78 @@ button {
 }
 
 /* why choose us section */
+.box {
+    width: 500px;
+    height: 230px;
+    padding: 30px;
 
+}
+
+.box>h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.box>p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.three {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.why-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px;
+
+}
+.why-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.why-para{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-div {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
 /* main newsletter section  */
 .news-container {
@@ -110,6 +181,7 @@ button {
     align-items: center;
     gap: 50px;
     width: 100%;
+    margin-bottom: 100px;
 
 
 }
@@ -178,7 +250,7 @@ input[type="email"] {
     position: relative;
     top: -50px;
     right: 18px;
-   
+
 }
 
 .news-img-sec {
@@ -190,8 +262,8 @@ input[type="email"] {
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    
-    
+
+
 }
 
 
