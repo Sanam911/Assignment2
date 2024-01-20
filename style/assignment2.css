@@ -99,6 +99,53 @@ button {
     align-items: center;
 }
 
+
+/* Grid image section */
+.row-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.grid-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.grid-para{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+
 /* why choose us section */
 .box {
     width: 500px;
@@ -147,15 +194,17 @@ button {
     margin: 100px;
 
 }
-.why-title{
+
+.why-title {
     color: #131318;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
-.why-para{
+
+.why-para {
     color: rgba(19, 19, 24, 0.70);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .text-div {
